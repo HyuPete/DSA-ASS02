@@ -15,32 +15,32 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="dblib.cpp">
+    <ClCompile Include="..\..\DSA171-A02\dblib.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="..\..\DSA171-A02\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="processData.cpp">
+    <ClCompile Include="..\..\DSA171-A02\processData.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="requestLib.cpp">
+    <ClCompile Include="..\..\DSA171-A02\requestLib.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="dbLib.h">
+    <ClInclude Include="..\..\DSA171-A02\dbLib.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="dsaLib.h">
+    <ClInclude Include="..\..\DSA171-A02\dsaLib.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="requestLib.h">
+    <ClInclude Include="..\..\DSA171-A02\requestLib.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="README.md">
+    <None Include="..\..\DSA171-A02\README.md">
       <Filter>Resource Files</Filter>
     </None>
   </ItemGroup>

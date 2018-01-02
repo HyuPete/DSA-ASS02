@@ -18,6 +18,20 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\DSA171-A02\dblib.cpp" />
+    <ClCompile Include="..\..\DSA171-A02\main.cpp" />
+    <ClCompile Include="..\..\DSA171-A02\processData.cpp" />
+    <ClCompile Include="..\..\DSA171-A02\requestLib.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\DSA171-A02\dbLib.h" />
+    <ClInclude Include="..\..\DSA171-A02\dsaLib.h" />
+    <ClInclude Include="..\..\DSA171-A02\requestLib.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\DSA171-A02\README.md" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{0D8CB5BE-CAA1-4DB7-A424-E8E8DD57F2CE}</ProjectGuid>
@@ -142,20 +156,6 @@
       <SubSystem>Console</SubSystem>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="dblib.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="processData.cpp" />
-    <ClCompile Include="requestLib.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="dbLib.h" />
-    <ClInclude Include="dsaLib.h" />
-    <ClInclude Include="requestLib.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="README.md" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
